@@ -20,14 +20,7 @@ import (
 
 	"github.com/go-kit/kit/log"
 	"github.com/prometheus/client_golang/prometheus"
-	"golang.org/x/sys/unix"
 )
-
-/*
-#include <sys/types.h>
-#include <sys/disk.h>
-*/
-import "C"
 
 type diskstatsCollector struct {
 	// rxfer  typedDesc
