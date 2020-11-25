@@ -16,7 +16,7 @@
 package collector
 
 import (
-	perfstat "github.com/thorhs/aix_libperfstat"
+	perfstat "github.com/thorhs/aix_libperfstat/generated"
 
 	"github.com/go-kit/kit/log"
 	"github.com/prometheus/client_golang/prometheus"
